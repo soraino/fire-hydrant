@@ -83,7 +83,7 @@
             return;
           }
           var icon = {
-            url: place.icon,
+            url: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
             size: new google.maps.Size(71, 71),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
@@ -106,9 +106,7 @@
           }
         });
         map.fitBounds(bounds);
-      });
-
-
+      })
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Xn8fUwP4vILSoWwIiyqDYWAvqTOCVvE&callback=initMap&libraries=places">
